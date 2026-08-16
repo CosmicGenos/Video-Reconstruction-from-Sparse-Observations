@@ -1,0 +1,49 @@
+{
+  // ---------------------------------------------------------------
+  // No-autocomplete mode: type it from memory.
+  // Errors/squiggles still show, so you learn from mistakes.
+  // ---------------------------------------------------------------
+
+  // The popup suggestion widget (IntelliSense)
+  "editor.quickSuggestions": {
+    "other": "off",
+    "comments": "off",
+    "strings": "off"
+  },
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.wordBasedSuggestions": "off",
+  "editor.tabCompletion": "off",
+  "editor.snippetSuggestions": "none",
+  "editor.suggest.showWords": false,
+  "editor.suggest.showSnippets": false,
+  "editor.suggest.preview": false,
+  "editor.acceptSuggestionOnEnter": "off",
+  "editor.acceptSuggestionOnCommitCharacter": false,
+
+  // Ghost text / AI inline completions (Copilot, Continue, etc.)
+  "editor.inlineSuggest.enabled": false,
+  "editor.inlineSuggest.showToolbar": "never",
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "python": false
+  },
+  "github.copilot.editor.enableAutoCompletions": false,
+  "github.copilot.nextEditSuggestions.enabled": false,
+
+  // Kept on deliberately: reference material, not typing-for-you.
+  "editor.parameterHints.enabled": true,
+  "editor.hover.enabled": "on",
+  "editor.autoClosingBrackets": "languageDefined",
+  "editor.autoClosingQuotes": "languageDefined",
+  "editor.autoSurround": "languageDefined",
+  "editor.inlayHints.enabled": "on",
+  "python.analysis.autoImportCompletions": true,
+
+  // Keep the diagnostics: still see what you got wrong
+  "python.analysis.typeCheckingMode": "basic",
+
+  // Terminal shell suggestions
+  "terminal.integrated.suggest.enabled": false
+}
